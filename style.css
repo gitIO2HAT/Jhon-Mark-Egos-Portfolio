@@ -1,0 +1,94 @@
+body {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-top: 100px;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* Ensures background stays fixed while content scrolls */
+}
+
+.header-custom {
+    height: 100px;
+    font-size: 30px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: rgba(235, 229, 229, 0.288);
+    backdrop-filter: blur(2px);
+    -webkit-backdrop-filter: blur(2px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgb(170, 168, 168);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-size: 100%, 100%;
+}
+.custom-text {
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+
+}
+.custom-text:hover {
+    color: aqua;
+ 
+}
+.name {
+    font-size: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.aboutme {
+    font-size: 25px;
+    text-align: justify;
+    font-family: 'Montserrat Classic', sans-serif;
+}
+.hobbiesInterest {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.list {
+    font-size: 25px;
+    font-family: 'Montserrat Classic', sans-serif;
+}
+.contact {
+    color: #542c5c;
+    font-size: 25px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+.expercience {
+    font-size: 25px;
+    font-family: 'Montserrat Classic', sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 400px;
+
+}
+.details {
+    font-size: 25px;
+    text-align: justify;
+    font-family: 'Montserrat Classic', sans-serif;
+}
+.info a {
+    text-decoration: none;
+
+
+}
+.info {
+    margin-top: 180px;
+    margin-bottom: 180px;
+}
+.technician a {
+    text-decoration: none;
+}
